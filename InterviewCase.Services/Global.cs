@@ -5,3 +5,4 @@ global using Microsoft.EntityFrameworkCore;
 global using AutoMapper;
 global using InterviewCase.Models.DBModel;
 global using InterviewCase.Models.DTO;
+global using Newtonsoft.Json;

@@ -7,7 +7,7 @@ public class BaseService<T> : IBaseService<T> where T : class
 
     InterviewContext _db;
 
-    public BaseService(InterviewContext db = null)
+    public BaseService(InterviewContext db)
     {
         _db = db;
     }
