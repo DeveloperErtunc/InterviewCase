@@ -9,6 +9,5 @@ public class DepartmentCreateDTO
 
 public class DepartmentDetailDTO: DepartmentDTO
 {
-    public List<StudentDTO>? Students { get; set; }
 
 }

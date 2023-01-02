@@ -10,7 +10,7 @@ public class DepartmentService:BaseService<Department>, IDepartmentService
 
     public async Task<string> GetDepartments()
     {
-        var datas = await GetIQueryable().Include(x => x.Students).ToListAsync();
+        var datas = await GetIQueryable().ToListAsync();
         return ToJson(ResponseModel<List<DepartmentDetailDTO>>.GetSucess(_mapper.Map<List<DepartmentDetailDTO>>(datas)));
     }
 
