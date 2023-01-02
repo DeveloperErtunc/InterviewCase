@@ -6,3 +6,5 @@ global using InterviewCase.Models.Context;
 global using InterviewCase.Services.Services;
 global using Microsoft.EntityFrameworkCore;
 global using InterviewCase.Models.DTO;
+global using InterviewCase.Models.Models;
+global using Newtonsoft.Json;
