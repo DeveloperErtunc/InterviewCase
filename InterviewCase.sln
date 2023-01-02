@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterviewCase.Services", "I
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterviewCase.Models", "InterviewCase.Models\InterviewCase.Models.csproj", "{4F40EE86-CDFD-4A07-98A0-F9053E7017C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterViewCase.Console", "InterViewCase.Console\InterViewCase.Console.csproj", "{EAD46C89-D98A-4F2D-A619-C0A52742F72E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterViewCase.Console", "InterViewCase.Console\InterViewCase.Console.csproj", "{EAD46C89-D98A-4F2D-A619-C0A52742F72E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterviewCase.API", "InterviewCase.API\InterviewCase.API.csproj", "{F0F80F19-3D13-403B-A828-B1E4FC0685FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{EAD46C89-D98A-4F2D-A619-C0A52742F72E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EAD46C89-D98A-4F2D-A619-C0A52742F72E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EAD46C89-D98A-4F2D-A619-C0A52742F72E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0F80F19-3D13-403B-A828-B1E4FC0685FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0F80F19-3D13-403B-A828-B1E4FC0685FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0F80F19-3D13-403B-A828-B1E4FC0685FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0F80F19-3D13-403B-A828-B1E4FC0685FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
